@@ -7,7 +7,6 @@ const app=express();
 app.use(cors({
     origin: "https://code-reviewer-frontend-five.vercel.app/", 
     methods: ["GET", "POST"],
-    allowedHeaders: ["Content-Type"]
   }))
 
 app.use(express.json());
